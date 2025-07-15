@@ -161,7 +161,7 @@ order by 2 ;
 ```
 
 ✅ **How to Use**
-1. Clone this repository:
+1. Clone this repository
 2. Import Retail Sales Analysis.csv into MySQL Workbench.
 3. Run the SQL script ```sqlproject1_sql_queries.sql``` step-by-step to perform cleaning and analysis.
 4. Export result sets if required for visualization or reporting.
