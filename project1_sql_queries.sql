@@ -10,7 +10,7 @@ CREATE TABLE retail_sales (
     gender VARCHAR(15),
     age INT,
     category VARCHAR(30),
-    quantiy INT,
+    quantity INT,
     price_per_unit INT,
     cogs FLOAT,
     total_sale INT
@@ -30,7 +30,7 @@ FROM
 WHERE
     transactions_id IS NULL OR sale_date IS NULL OR sale_time IS NULL
         OR customer_id IS NULL OR gender IS NULL OR age IS NULL
-        OR category IS NULL OR quantiy IS NULL OR price_per_unit IS NULL
+        OR category IS NULL OR quantity IS NULL OR price_per_unit IS NULL
         OR cogs IS NULL OR total_sale IS NULL;
         
 DELETE
@@ -39,7 +39,7 @@ FROM
 WHERE
     transactions_id IS NULL OR sale_date IS NULL OR sale_time IS NULL
         OR customer_id IS NULL OR gender IS NULL OR age IS NULL
-        OR category IS NULL OR quantiy IS NULL OR price_per_unit IS NULL
+        OR category IS NULL OR quantity IS NULL OR price_per_unit IS NULL
         OR cogs IS NULL OR total_sale IS NUL;
 
 
@@ -68,7 +68,7 @@ where sale_date='2022-11-05';
 -- and the quantity sold is more than 4 in the month of Nov-2022
 
 select * from retail_sales
-where category='Clothing' and quantiy>=4 and date_format(sale_date,'%Y-%m')='2022-11'
+where category='Clothing' and quantity>=4 and date_format(sale_date,'%Y-%m')='2022-11'
 order by sale_date;
 
 
