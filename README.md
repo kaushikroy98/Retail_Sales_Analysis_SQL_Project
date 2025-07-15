@@ -40,7 +40,7 @@ The dataset (`Retail Sales Analysis.csv`) consists of **transaction-level retail
 | gender            | Gender of the customer                           |
 | age               | Age of the customer                              |
 | category          | Product category (e.g., Clothing, Beauty, etc.)  |
-| quantiy           | Number of units sold                             |
+| quantity          | Number of units sold                             |
 | price_per_unit    | Price per unit of the item                       |
 | cogs              | Cost of goods sold                               |
 | total_sale        | Total sale value (Revenue)                       |
