@@ -36,7 +36,7 @@ The dataset (`Retail Sales Analysis.csv`) consists of **transaction-level retail
 | transactions_id   | Unique ID for each transaction                   |
 | sale_date         | Date of the transaction                          |
 | sale_time         | Time of the transaction                          |
-| customer_id       | Unique customer ID                               |
+| customer_id       | customer ID                                      |
 | gender            | Gender of the customer                           |
 | age               | Age of the customer                              |
 | category          | Product category (e.g., Clothing, Beauty, etc.)  |
