@@ -28,34 +28,21 @@ SELECT
 FROM
     retail_sales
 WHERE
-    transactions_id IS NULL
-        OR sale_date IS NULL
-        OR sale_time IS NULL
-        OR customer_id IS NULL
-        OR gender IS NULL
-        OR age IS NULL
-        OR category IS NULL
-        OR quantiy IS NULL
-        OR price_per_unit IS NULL
-        OR cogs IS NULL
-        OR total_sale IS NULL;
+    transactions_id IS NULL OR sale_date IS NULL OR sale_time IS NULL
+        OR customer_id IS NULL OR gender IS NULL OR age IS NULL
+        OR category IS NULL OR quantiy IS NULL OR price_per_unit IS NULL
+        OR cogs IS NULL OR total_sale IS NULL;
         
 DELETE
 FROM
     retail_sales
 WHERE
-    transactions_id IS NULL
-        OR sale_date IS NULL
-        OR sale_time IS NULL
-        OR customer_id IS NULL
-        OR gender IS NULL
-        OR age IS NULL
-        OR category IS NULL
-        OR quantiy IS NULL
-        OR price_per_unit IS NULL
-        OR cogs IS NULL
-        OR total_sale IS NULL;
-        
+    transactions_id IS NULL OR sale_date IS NULL OR sale_time IS NULL
+        OR customer_id IS NULL OR gender IS NULL OR age IS NULL
+        OR category IS NULL OR quantiy IS NULL OR price_per_unit IS NULL
+        OR cogs IS NULL OR total_sale IS NUL;
+
+
 -- Data Exploration
 
 -- Count of sales
@@ -107,8 +94,7 @@ select category,gender, count(transactions_id) total_txn from retail_sales
 group by 1,2
 order by 1;
 
--- Q7 Write a SQL query to calculate the average sale for each month. Find out best selling month in each year
-
+-- Q7 Write a SQL query to calculate the average sale for each month. Find out best selling month in each year 
 -- Good for practising window functions and use of multiple select query
 
 select year,month,avg_sales from (
@@ -135,6 +121,7 @@ group by 1;
 
 -- Q10 Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)
 
+-- Use of CTE Table
 
 with hourly_sales as(
 select *,
