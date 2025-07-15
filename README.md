@@ -8,10 +8,11 @@ This project is a **comprehensive SQL-based analysis of a retail sales dataset**
 
 ## 📁 Project Structure
 
-Retail-Sales-Analysis/
-── Retail Sales Analysis.csv # Raw dataset containing sales records
-── project1_sql_queries.sql # SQL queries for data cleaning and analysis
-── README.md # Project overview and documentation
+Retail-Sales-Analysis
+
+Retail Sales Analysis.csv # Raw dataset containing sales records
+project1_sql_queries.sql # SQL queries for data cleaning and analysis
+README.md # Project overview and documentation
 
 
 ---
@@ -161,11 +162,12 @@ order by 2 ;
 2. All business questions and solutions are written using standard SQL syntax.
 
 **📬 Contact**
-```sql
+
 Kaushik Roy
 Email: 1998kaushik.roy@gmail.com
 LinkedIn: [[kaushikroy98](https://www.linkedin.com/in/kaushikroy98/)]
-Project created for learning and demonstration purposes.```
+
+Project created for learning and demonstration purposes.
 
 
 
