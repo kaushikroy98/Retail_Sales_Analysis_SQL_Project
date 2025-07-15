@@ -9,10 +9,9 @@ This project is a **comprehensive SQL-based analysis of a retail sales dataset**
 ## 📁 Project Structure
 
 Retail-Sales-Analysis/
-│
-├── Retail Sales Analysis.csv # Raw dataset containing sales records
-├── project1_sql_queries.sql # SQL queries for data cleaning and analysis
-└── README.md # Project overview and documentation
+── Retail Sales Analysis.csv # Raw dataset containing sales records
+── project1_sql_queries.sql # SQL queries for data cleaning and analysis
+── README.md # Project overview and documentation
 
 
 ---
@@ -54,7 +53,8 @@ SELECT * FROM retail_sales
 WHERE 
     transaction_id IS NULL OR sale_date IS NULL OR 
     sale_time IS NULL OR gender IS NULL OR category IS NULL OR
-    quantity IS NULL OR cogs IS NULL OR total_sale IS NULL;```
+    quantity IS NULL OR cogs IS NULL OR total_sale IS NULL;
+```
 
 📌 Business Questions Answered
 Below are the key business problems addressed through SQL queries in the project:
