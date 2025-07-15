@@ -10,9 +10,9 @@ This project is a **comprehensive SQL-based analysis of a retail sales dataset**
 
 Retail-Sales-Analysis
 
-Retail Sales Analysis.csv # Raw dataset containing sales records
-project1_sql_queries.sql # SQL queries for data cleaning and analysis
-README.md # Project overview and documentation
+	Retail Sales Analysis.csv # Raw dataset containing sales records
+	project1_sql_queries.sql # SQL queries for data cleaning and analysis
+	README.md # Project overview and documentation
 
 
 ---
