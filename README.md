@@ -67,8 +67,7 @@ WHERE
     quantity IS NULL OR cogs IS NULL OR total_sale IS NULL;
 ```
 
-📌 **Business Questions Answered**
-Below are the key business problems addressed through SQL queries in the project:
+📌 **Business Questions Answered** - Below are the key business problems addressed through SQL queries in the project:
 
 **Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05'**
 
@@ -177,7 +176,8 @@ Kaushik Roy
 Email: 1998kaushik.roy@gmail.com
 LinkedIn: [[kaushikroy98](https://www.linkedin.com/in/kaushikroy98/)]
 
-Project created for learning and demonstration purposes.
+
+Project created for learning and demonstration purpose.
 
 
 
