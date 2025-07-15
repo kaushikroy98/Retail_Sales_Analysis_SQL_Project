@@ -88,7 +88,7 @@ order by sale_date;
 **Q.3 Write a SQL query to calculate the total sales (total_sale) for each category.**
 
 ```sql
-select category, sum(quantiy) total_sale, count(*) total_order from retail_sales
+select category, sum(quantity) total_sale, count(*) total_order from retail_sales
 group by category;
 ```
 
