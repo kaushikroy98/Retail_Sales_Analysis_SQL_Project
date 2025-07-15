@@ -74,7 +74,7 @@ order by sale_date;
 
 -- Q3 Write a SQL query to calculate the total sales (total_sale) for each category.
 
-select category, sum(quantiy) total_sale, count(*) total_order from retail_sales
+select category, sum(quantity) total_sale, count(*) total_order from retail_sales
 group by category;
 
 -- Q4 Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category
