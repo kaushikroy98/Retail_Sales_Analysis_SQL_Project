@@ -1,6 +1,6 @@
 # Retail_Sales_Analysis_SQL_Project
 
-# 🛒 Retail Sales Analysis using SQL
+# Project Overview
 
 This project is a **comprehensive SQL-based analysis of a retail sales dataset** using **MySQL Workbench**. It focuses on extracting business insights through structured queries, data cleaning, and aggregation techniques. The goal is to simulate real-world retail data analysis scenarios and answer specific business questions using SQL.
 
@@ -8,12 +8,22 @@ This project is a **comprehensive SQL-based analysis of a retail sales dataset**
 
 ## 📁 Project Structure
 
-Retail-Sales-Analysis
-
-	Retail Sales Analysis.csv # Raw dataset containing sales records
-	project1_sql_queries.sql # SQL queries for data cleaning and analysis
-	README.md # Project overview and documentation
-
+```sql
+Retail_Sales_Analysis_SQL_Project/
+│
+├── 📄 Retail Sales Analysis.csv
+│   └─ The raw retail transaction dataset containing sales details like date, time, customer demographics, product category, quantity sold, price, and revenue.
+│
+├── 🗂️ project1_sql_queries.sql
+│   └─ A complete SQL script containing:
+│       • Database and table creation
+│       • Data cleaning steps
+│       • Descriptive analytics queries
+│       • Business problem-solving queries using joins, aggregations, and window functions
+│
+├── 📝 README.md
+│   └─ This documentation file describing the project's objective, dataset, methodology, SQL logic, and business insights.
+```
 
 ---
 
