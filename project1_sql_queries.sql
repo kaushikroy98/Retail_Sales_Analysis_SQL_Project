@@ -117,9 +117,14 @@ limit 5;
 select category, count(distinct customer_id) as Count_unique_cx from retail_sales
 group by 1;
 
+-- Q10 Write a SQL query to find the customers who purchased all items from category
 
+select customer_id,count(distinct category) from retail_sales
+group by customer_id
+having count(distinct category)= (select count(distinct category) from retail_sales)
+order by 1 desc;
 
--- Q10 Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)
+-- Q11 Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)
 
 -- Use of CTE Table
 
