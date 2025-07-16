@@ -179,11 +179,11 @@ order by 2 ;
 1. This project assumes a basic understanding of SQL and MySQL Workbench.
 2. All business questions and solutions are written using standard SQL syntax.
 
-**📬 Contact**
+## Contact
 
 Kaushik Roy
-Email: 1998kaushik.roy@gmail.com
-LinkedIn: [[kaushikroy98](https://www.linkedin.com/in/kaushikroy98/)]
+- **Email**: 1998kaushik.roy@gmail.com
+- **LinkedIn**: [https://www.linkedin.com/in/kaushikroy98/](https://www.linkedin.com/in/kaushikroy98/)
 
 
 Project created for learning and demonstration purpose.
