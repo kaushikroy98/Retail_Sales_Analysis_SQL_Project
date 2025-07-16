@@ -135,7 +135,7 @@ order by 2 desc
 limit 5;
 ```
 
-**Q.9 Write a SQL query to find the number of unique customers who purchased items from each category.**
+**Q.9 Write a SQL query to find the number of unique customers by each category**
 
 ```sql
 select category, count(distinct customer_id) as Count_unique_cx from retail_sales
