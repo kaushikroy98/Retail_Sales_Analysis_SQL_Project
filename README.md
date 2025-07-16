@@ -142,7 +142,16 @@ select category, count(distinct customer_id) as Count_unique_cx from retail_sale
 group by 1;
 ```
 
-**Q.10 Write a SQL query to create each shift and number of orders (Example Morning <=12, Afternoon Between 12 & 17, Evening >17)**
+**Q10 Write a SQL query to find the customers who purchased all items from category**
+
+```sql
+select customer_id,count(distinct category) from retail_sales
+group by customer_id
+having count(distinct category)= (select count(distinct category) from retail_sales)
+order by 1 desc;
+```
+
+**Q.11 Write a SQL query to create each shift and number of orders (Example Morning <=12, Afternoon Between 12 & 17, Evening >17)**
 
 ```sql
 with hourly_sales as(
